@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Amazon-Ember";
+    src: url(../assets/fonts/Amazon-Ember.woff2);
+}
+
+:root {
+    --text-color-black: #0f1111;
+    --text-color-blue: #2162a1;
+    --text-color-white: #FFFFFF;
+    --button-color: #ffd814;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amazon-Ember";
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+    color: var(--button-color);
+}
