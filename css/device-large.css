@@ -427,4 +427,178 @@
     .best-selling {
         margin-left: 3px;
     }
+
+    .content {
+        width: 100%;
+        padding-top: 22px;
+    }
+
+    .main-content-wrapper {
+        max-width: 1800px;
+        min-width: 996px;
+        width: calc(100vw - 28px + 4px);
+        margin: 0 auto;
+        display: flex;
+        /* justify-content: flex-end; */
+    }
+
+    .sidebar {
+        width: calc(0.25 * (100vw - 28px));
+        min-width: 249px;
+        max-width: 449px;
+        margin-left: 4px;
+        /*sidebar test margin 👆*/
+    }
+
+    .sidebar-wrapper {
+        padding: 0 4px;
+        margin-right: 12px;
+    }
+
+    .delivery-day-heading-wrapper {
+        margin-bottom: 4px;
+    }
+
+    .delivery-day-heading-wrapper h4 {
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.3px;
+    }
+
+    .delivery-day-checkbox-container {
+        margin-bottom: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: space-evenly;
+        /* align-items: center; */
+    }
+
+    .checkbox-item {
+        display: flex;
+        align-items: center;
+        margin-top: 3px;
+    }
+
+    .checkbox-item input {
+        width: 16px;
+        height: 16px;
+        margin-top: -2px;
+    }
+
+    .checkbox-item span {
+        font-size: 14px;
+        line-height: 16px;
+        vertical-align: middle;
+        margin-left: 5px;
+        margin-top: 1px;
+    }
+
+    .category-container {
+        height: 120px;
+    }
+
+    .category-heading-wrapper {
+        margin-bottom: 4.5px;
+    }
+
+    .category-heading-wrapper h4 {
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.3px;
+    }
+
+    .electronics-container {
+        height: 96px;
+    }
+
+    .electronics {
+        margin-bottom: 4px;
+    }
+
+    .electronics .electronics-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .mobile-heading {
+        margin-left: 12px;
+        margin-bottom: 4px;
+    }
+
+    .mobile-heading h4 {
+        font-size: 14px;
+    }
+
+    .mobile-items {
+        margin-left: 24px;
+    }
+
+    .mobile-items p {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 3px;
+    }
+
+    .brands-container {
+        height: 200px;
+        margin-top: 16px;
+    }
+
+    .brand-heading {
+        margin-bottom: 8px;
+    }
+
+    .brand-heading h4 {
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.3px;
+    }
+
+    .clear-button {
+        margin-top: -2px;
+    }
+
+    .clear-button .clear-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .brand-item {
+        margin-top: -0.5px;
+        /* margin-bottom: 4px; */
+    }
+
+    .brand-checkbox {
+        width: 16px;
+        height: 16px;
+    }
+
+    .brand-name {
+        font-size: 14px;
+        line-height: 16px;
+        vertical-align: baseline;
+        margin-left: 1px;
+    }
+
+    .see-more-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .see-more-down-arrow {
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 1px;
+    }
+
+    .see-more-text {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 1px;
+        color: var(--text-color-blue);
+        margin-left: 3px;
+    }
 }
