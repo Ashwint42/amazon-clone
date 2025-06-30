@@ -25,3 +25,7 @@ button {
     outline: none;
     color: var(--button-color);
 }
+
+li {
+    list-style: none;
+}
