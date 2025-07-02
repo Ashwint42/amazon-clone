@@ -3,11 +3,19 @@
     src: url(../assets/fonts/Amazon-Ember.woff2);
 }
 
+@font-face {
+    font-family: "Amazon-Ember-Bold";
+    src: url(../assets/fonts/AmazonEmber_Bd.ttf);
+}
+
+
+
 :root {
     --text-color-black: #0f1111;
     --text-color-blue: #2162a1;
     --text-color-white: #FFFFFF;
     --button-color: #ffd814;
+    --font-bold: "Amazon-Ember-Bold"
 }
 
 * {

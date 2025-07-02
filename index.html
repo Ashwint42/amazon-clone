@@ -56,6 +56,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="secondary-nav">
                 <div class="secondary-left">
                     <a>
@@ -107,6 +108,7 @@
                     <a>Computer Peripherals</a>
                     <a>Smart Technology</a>
                     <a>Musical Instruments</a>
+                    <a>Office & Stationary</a>
                 </div>
             </div>
         </nav>
@@ -127,26 +129,25 @@
 
         <div class="content">
             <div class="main-content-wrapper">
-                <div class="sidebar">
+                <aside class="sidebar">
                     <div class="sidebar-wrapper">
-                        <div class="delivery-day-container">
+
+                        <section class="delivery-day-container">
                             <div class="delivery-day-heading-wrapper">
-                                <h4>Delivery Day</h4>
+                                <p>Delivery Day</p>
                             </div>
                             <div class="delivery-day-checkbox-container">
                                 <div class="checkbox-item">
                                     <input type="checkbox" id="delivery-checkbox">
-                                    <span>Get It in 2 Days</span>
+                                    <p>Get It in 2 Days</p>
                                 </div>
-                                <!-- <div class="checkbox-item">
-                                    <input type="checkbox" id="delivery-checkbox">
-                                    <span>Get It in 2 Days</span>
-                                </div> -->
+
                             </div>
-                        </div>
+                        </section>
+
                         <div class="category-container">
                             <div class="category-heading-wrapper">
-                                <h4>Category</h4>
+                                <p>Category</p>
                             </div>
                             <div class="electronics-container">
                                 <div class="electronics">
@@ -163,11 +164,11 @@
                                             </g>
                                         </svg>
                                     </span>
-                                    <span class="electronics-text">Electronics</span>
+                                    <p class="electronics-text">Electronics</p>
                                 </div>
                                 <div class="mobiles-container">
                                     <div class="mobile-heading">
-                                        <h4>Mobiles & Accessories</h4>
+                                        <p>Mobiles & Accessories</p>
                                     </div>
                                     <div class="mobile-items">
                                         <p>Mobile Accessories</p>
@@ -181,7 +182,7 @@
 
                         <div class="brands-container">
                             <div class="brand-heading">
-                                <h4>Brands</h4>
+                                <p>Brands</p>
                             </div>
                             <div class="clear-button">
                                 <span class="clear-arrow">
@@ -195,36 +196,37 @@
                                         </g>
                                     </svg>
                                 </span>
-                                <span class="clear-text">Clear</span>
+                                <p class="clear-text">Clear</p>
                             </div>
                             <ul class="brand-items">
                                 <li class="brand-item">
-                                    <input type="checkbox" class="brand-checkbox" name="brand">
-                                    <span class="brand-name">Samsung</span>
+                                    <input type="checkbox" class="brand-checkbox" id="samsung" checked>
+                                    <label for="samsung" class="brand-name"
+                                        style="font-family: Amazon-Ember-Bold;">Samsung</span>
+                                </li>
+                                <li class="brand-item">
+                                    <input type="checkbox" class="brand-checkbox" name="apple">
+                                    <label class="brand-name">Apple</label>
+                                </li>
+                                <li class="brand-item">
+                                    <input type="checkbox" class="brand-checkbox" name="oneplus">
+                                    <label class="brand-name">OnePlus</label>
+                                </li>
+                                <li class="brand-item">
+                                    <input type="checkbox" class="brand-checkbox" name="boat">
+                                    <label class="brand-name">boAt</label>
+                                </li>
+                                <li class="brand-item">
+                                    <input type="checkbox" class="brand-checkbox" name="realme">
+                                    <label class="brand-name">realme</label>
+                                </li>
+                                <li class="brand-item">
+                                    <input type="checkbox" class="brand-checkbox" name="redmi">
+                                    <label class="brand-name">Redmi</label>
                                 </li>
                                 <li class="brand-item">
                                     <input type="checkbox" class="brand-checkbox" name="brand">
-                                    <span class="brand-name">Apple</span>
-                                </li>
-                                <li class="brand-item">
-                                    <input type="checkbox" class="brand-checkbox" name="brand">
-                                    <span class="brand-name">OnePlus</span>
-                                </li>
-                                <li class="brand-item">
-                                    <input type="checkbox" class="brand-checkbox" name="brand">
-                                    <span class="brand-name">boAt</span>
-                                </li>
-                                <li class="brand-item">
-                                    <input type="checkbox" class="brand-checkbox" name="brand">
-                                    <span class="brand-name">realme</span>
-                                </li>
-                                <li class="brand-item">
-                                    <input type="checkbox" class="brand-checkbox" name="brand">
-                                    <span class="brand-name">Redmi</span>
-                                </li>
-                                <li class="brand-item">
-                                    <input type="checkbox" class="brand-checkbox" name="brand">
-                                    <span class="brand-name">Nokia</span>
+                                    <label class="brand-name">Nokia</label>
                                 </li>
                             </ul>
                             <div class="see-more-container">
@@ -233,22 +235,42 @@
                             </div>
                         </div>
 
-                    </div>
-                </div>
-                <div class="results-wrapper">
-                    <div class="results-heading-container">
-                        <div class="result-heading">
-                            <h4>Results</h4>
+                        <div class="customer-ratings-container">
+                            <div class="customer-ratings-heading-wrapper">
+                                <p>Customer Reviews</p>
+                            </div>
+                            <div class="stars-container">
+                                <div class="stars-wrapper">
+                                    <i class="fa-solid fa-star stars" id="oneStar"></i>
+                                    <i class="fa-solid fa-star stars" id="twoStar"></i>
+                                    <i class="fa-solid fa-star stars" id="threeStar"></i>
+                                    <i class="fa-solid fa-star stars" id="fourStar"></i>
+                                    <i class="fa-regular fa-star stars" id="fiveStar"></i>
+                                </div>
+                                <span class="stars-up-text">& Up </span>
+                            </div>
                         </div>
-                        <div class="result-heading-follower">
-                            <p>Check each product page for other buying options.</p>
+
+                        <div class="item-condition-container">
+                            <h4>Item Condition</h4>
+                            <p>New</p>
                         </div>
+
                     </div>
-                    <div class="rendered-results"></div>
-                </div>
+                </aside>
+
+                <section class="main-section-right">
+                    <div class="product-result-container">
+                        <h2>Results</h2>
+                        <p>Check each product page for other buying options.</p>
+                    </div>
+                </section>
+
             </div>
         </div>
     </main>
+
+
 
     <script type="module" src="./js/main.js"></script>
 </body>
