@@ -705,6 +705,11 @@ nav {
     margin-right: 1px;
 }
 
+.min-bound,
+.max-bound {
+    font-family: var(--font-bold);
+}
+
 .price-slider-container {
     height: 50px;
     display: flex;

@@ -1,10 +1,6 @@
 import { starMappings } from "./utils.js";
-import { filterByBrand } from "./filter.js";
 
 const starsWrapper = document.querySelector('.stars-wrapper');
-
-const stickyNav = document.querySelector('.sticky-nav')
-console.log(stickyNav)
 
 attachListener();
 
@@ -17,10 +13,3 @@ function attachListener() {
         attachListener();
     }))
 }
-
-
-async function main() {
-    console.log(await filterByBrand());
-}
-
-main();
