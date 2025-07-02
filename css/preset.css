@@ -8,12 +8,11 @@
     src: url(../assets/fonts/AmazonEmber_Bd.ttf);
 }
 
-
-
 :root {
     --text-color-black: #0f1111;
     --text-color-blue: #2162a1;
     --text-color-white: #FFFFFF;
+    --text-color-grey: #565959;
     --button-color: #ffd814;
     --font-bold: "Amazon-Ember-Bold"
 }
@@ -31,7 +30,9 @@ a {
 
 button {
     outline: none;
-    color: var(--button-color);
+    background-color: var(--button-color);
+    outline: none;
+    border: none
 }
 
 li {
