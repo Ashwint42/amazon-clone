@@ -1,10 +1,11 @@
 import { applyFilters } from "./filter.js";
-import { addCheckBoxListeners, addStarListeners } from "./eventlisteners.js";
-
+import { addCheckBoxEvents, addRatingEvents, addSliderEvents, addWindowEvents } from "./eventlisteners.js";
 
 async function main() {
-    addStarListeners();
-    addCheckBoxListeners();
+    addWindowEvents();
+    addRatingEvents();
+    addCheckBoxEvents();
+    addSliderEvents();
     await applyFilters();
 }
 

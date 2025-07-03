@@ -297,19 +297,21 @@
                                     <div class="price-range-text-container">
                                         <p class="price-range-text">&#8377;<span class="min-bound">280</span> <span
                                                 class="price-range-hyphen">–</span>
-                                            &#8377;<span class="max-bound">124,900</span>+</p>
+                                            &#8377;<span class="max-bound">124,900</span></p>
                                     </div>
                                     <div class="price-slider-container">
                                         <div class="price-slider">
-                                            <div class="upper-bound">
-                                                <input type="range">
-                                            </div>
                                             <div class="lower-bound">
-                                                <input type="range">
+                                                <input type="range" min="1" max="50000" value="280"
+                                                    class="lower-bound-input">
+                                            </div>
+                                            <div class="upper-bound">
+                                                <input type="range" min="50001" max="124900" aria-valuemax="20000"
+                                                    value="124900" class="upper-bound-input">
                                             </div>
                                         </div>
                                         <div class="go-button">
-                                            <button>Go</button>
+                                            <button class="slider-compute-button">Go</button>
                                         </div>
                                     </div>
                                 </div>

@@ -5,7 +5,7 @@ let clientFilters = {
     brands: ["samsung"],
     rating: 4,
     minPrice: 500,
-    maxPrice: 130000
+    maxPrice: 100000
 }
 
 const productsContainer = document.querySelector('.products-container');
