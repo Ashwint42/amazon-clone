@@ -110,6 +110,275 @@
       "isPrime": true,
       "islimitedDeal": true,
       "serviceAvailable": true
+    },
+    {
+      "title": "Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7\" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger",
+      "image": "https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 6499,
+      "original_price": 9999,
+      "buyingCount": 5,
+      "rating": {
+        "stars": 4.5,
+        "count": 4197
+      },
+      "deliveryDate": "Sun, 29 Jun",
+      "isPrime": true,
+      "islimitedDeal": false,
+      "serviceAvailable": true
+    },
+    {
+      "title": "Samsung Original 25W Type-C Travel Adaptor Without Cable, White",
+      "image": "https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 999,
+      "original_price": 1699,
+      "buyingCount": 10,
+      "rating": {
+        "stars": 4.5,
+        "count": 39032
+      },
+
+      "deliveryDate": "Sun, 29 Jun",
+      "isPrime": true,
+      "islimitedDeal": false,
+      "serviceAvailable": false
+    },
+    {
+      "title": "Samsung Galaxy M35 5G (Daybreak Blue,6GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+ | Vapour Cooling Chamber | 6000mAh Battery | 120Hz Super AMOLED Display| Without Charger",
+      "image": "https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 13999,
+      "original_price": 24499,
+      "buyingCount": 5,
+      "rating": {
+        "stars": 4,
+        "count": 10916
+      },
+
+      "deliveryDate": "Sun, 29 Jun",
+      "isPrime": true,
+      "islimitedDeal": true,
+      "serviceAvailable": true
+    },
+    {
+      "title": "Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Gray, 12GB, 256GB Storage), Snapdragon 8 Gen 3, 200 MP Camera with ProVisual Engine and 5000mAh Battery",
+      "image": "https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 84999,
+      "original_price": 134999,
+      "buyingCount": 2,
+      "rating": {
+        "stars": 4.5,
+        "count": 1070
+      },
+
+      "deliveryDate": "Sun, 29 Jun",
+      "isPrime": true,
+      "islimitedDeal": false,
+      "serviceAvailable": true
+    },
+    {
+      "title": "Samsung Galaxy S24 FE 5G AI Smartphone (Graphite, 8GB RAM, 128GB Storage)",
+      "image": "https://m.media-amazon.com/images/I/71eUNTW+nJL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 84999,
+      "original_price": 134999,
+      "buyingCount": 5,
+      "rating": {
+        "stars": 4.5,
+        "count": 303
+      },
+
+      "deliveryDate": "Thu, 3 Jul",
+      "isPrime": true,
+      "islimitedDeal": false,
+      "serviceAvailable": true
+    },
+    {
+      "title": "SAMSUNG EVO Plus 256GB Micro w/SD Adaptor SDXC, Up-to 160MB/s, Expanded Storage for Gaming Devices, Android Tablets and Smart Phones, Memory Card",
+      "image": "https://m.media-amazon.com/images/I/71ai4yZJUgL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 1889,
+      "original_price": 4399,
+      "buyingCount": 3,
+      "rating": {
+        "stars": 2.5,
+        "count": 5815
+      },
+
+      "deliveryDate": "Mon, 30 Jun",
+      "isPrime": true,
+      "islimitedDeal": true,
+      "serviceAvailable": false
+    },
+    {
+      "title": "Samsung Galaxy F06 5G, Bahama Blue (4GB, 128GB)",
+      "image": "https://m.media-amazon.com/images/I/41S0KJoxqBL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 8490,
+      "original_price": 13999,
+      "buyingCount": 3,
+      "rating": {
+        "stars": 3.5,
+        "count": 66
+      },
+
+      "deliveryDate": "Sun, 29 Jun",
+      "isPrime": true,
+      "islimitedDeal": true,
+      "serviceAvailable": true
+    },
+    {
+      "title": "Samsung Galaxy M35 5G (Daybreak Blue,6GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+ | Vapour Cooling Chamber | 6000mAh Battery | 120Hz Super AMOLED Display| Without Charger",
+      "image": "https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 13999,
+      "original_price": 24499,
+      "buyingCount": 5,
+      "rating": {
+        "stars": 4,
+        "count": 10916
+      },
+
+      "deliveryDate": "Sun, 29 Jun",
+      "isPrime": true,
+      "islimitedDeal": true,
+      "serviceAvailable": true
+    },
+    {
+      "title": "Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Gray, 12GB, 256GB Storage), Snapdragon 8 Gen 3, 200 MP Camera with ProVisual Engine and 5000mAh Battery",
+      "image": "https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 84999,
+      "original_price": 134999,
+      "buyingCount": 2,
+      "rating": {
+        "stars": 4.5,
+        "count": 1070
+      },
+
+      "deliveryDate": "Sun, 29 Jun",
+      "isPrime": true,
+      "islimitedDeal": false,
+      "serviceAvailable": true
+    },
+    {
+      "title": "Samsung Galaxy S24 FE 5G AI Smartphone (Graphite, 8GB RAM, 128GB Storage)",
+      "image": "https://m.media-amazon.com/images/I/71eUNTW+nJL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 84999,
+      "original_price": 134999,
+      "buyingCount": 5,
+      "rating": {
+        "stars": 4.5,
+        "count": 303
+      },
+
+      "deliveryDate": "Thu, 3 Jul",
+      "isPrime": true,
+      "islimitedDeal": false,
+      "serviceAvailable": true
+    },
+    {
+      "title": "SAMSUNG EVO Plus 256GB Micro w/SD Adaptor SDXC, Up-to 160MB/s, Expanded Storage for Gaming Devices, Android Tablets and Smart Phones, Memory Card",
+      "image": "https://m.media-amazon.com/images/I/71ai4yZJUgL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 1889,
+      "original_price": 4399,
+      "buyingCount": 3,
+      "rating": {
+        "stars": 2.5,
+        "count": 5815
+      },
+
+      "deliveryDate": "Mon, 30 Jun",
+      "isPrime": true,
+      "islimitedDeal": true,
+      "serviceAvailable": false
+    },
+    {
+      "title": "Samsung Galaxy F06 5G, Bahama Blue (4GB, 128GB)",
+      "image": "https://m.media-amazon.com/images/I/41S0KJoxqBL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 8490,
+      "original_price": 13999,
+      "buyingCount": 3,
+      "rating": {
+        "stars": 3.5,
+        "count": 66
+      },
+      "deliveryDate": "Sun, 29 Jun",
+      "isPrime": true,
+      "islimitedDeal": true,
+      "serviceAvailable": true
+    },
+    {
+      "title": "Samsung Galaxy M35 5G (Daybreak Blue,6GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+ | Vapour Cooling Chamber | 6000mAh Battery | 120Hz Super AMOLED Display| Without Charger",
+      "image": "https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 13999,
+      "original_price": 24499,
+      "buyingCount": 5,
+      "rating": {
+        "stars": 4,
+        "count": 10916
+      },
+
+      "deliveryDate": "Sun, 29 Jun",
+      "isPrime": true,
+      "islimitedDeal": true,
+      "serviceAvailable": true
+    },
+    {
+      "title": "Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Gray, 12GB, 256GB Storage), Snapdragon 8 Gen 3, 200 MP Camera with ProVisual Engine and 5000mAh Battery",
+      "image": "https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 84999,
+      "original_price": 134999,
+      "buyingCount": 2,
+      "rating": {
+        "stars": 4.5,
+        "count": 1070
+      },
+
+      "deliveryDate": "Sun, 29 Jun",
+      "isPrime": true,
+      "islimitedDeal": false,
+      "serviceAvailable": true
+    },
+    {
+      "title": "Samsung Galaxy S24 FE 5G AI Smartphone (Graphite, 8GB RAM, 128GB Storage)",
+      "image": "https://m.media-amazon.com/images/I/71eUNTW+nJL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 84999,
+      "original_price": 134999,
+      "buyingCount": 5,
+      "rating": {
+        "stars": 4.5,
+        "count": 303
+      },
+
+      "deliveryDate": "Thu, 3 Jul",
+      "isPrime": true,
+      "islimitedDeal": false,
+      "serviceAvailable": true
+    },
+    {
+      "title": "SAMSUNG EVO Plus 256GB Micro w/SD Adaptor SDXC, Up-to 160MB/s, Expanded Storage for Gaming Devices, Android Tablets and Smart Phones, Memory Card",
+      "image": "https://m.media-amazon.com/images/I/71ai4yZJUgL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 1889,
+      "original_price": 4399,
+      "buyingCount": 3,
+      "rating": {
+        "stars": 2.5,
+        "count": 5815
+      },
+
+      "deliveryDate": "Mon, 30 Jun",
+      "isPrime": true,
+      "islimitedDeal": true,
+      "serviceAvailable": false
+    },
+    {
+      "title": "Samsung Galaxy F06 5G, Bahama Blue (4GB, 128GB)",
+      "image": "https://m.media-amazon.com/images/I/41S0KJoxqBL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 8490,
+      "original_price": 13999,
+      "buyingCount": 3,
+      "rating": {
+        "stars": 3.5,
+        "count": 66
+      },
+      "deliveryDate": "Sun, 29 Jun",
+      "isPrime": true,
+      "islimitedDeal": true,
+      "serviceAvailable": true
     }
   ],
   "apple": [
