@@ -331,6 +331,7 @@ nav {
     width: 8px;
     background-color: #232f3e;
     margin-top: 18px;
+    border-style: solid;
 }
 
 .tertiary-nav {
@@ -353,12 +354,16 @@ nav {
 .tertiary-nav-wrapper a {
     height: 48px;
     line-height: 50px;
-    padding: 0 13px;
+    padding: 0 1.65%;
     vertical-align: middle;
     text-align: center;
     font-size: 12px;
     color: #333;
     text-wrap-mode: nowrap;
+}
+
+.tertiary-nav-wrapper .electronics-image {
+    padding: 0 13px;
 }
 
 .tertiary-nav-wrapper a img {
