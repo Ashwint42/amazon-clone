@@ -1,15 +1,33 @@
 import { fetchProducts } from "./utils.js";
+import { renderCard } from "./Card.js";
 
-async function filterByBrand() {
+let clientFilters = {
+    brands: ["samsung"],
+    rating: 4,
+    minPrice: 500,
+    maxPrice: 130000
+}
+
+const productsContainer = document.querySelector('.products-container');
+
+async function applyFilters() {
     const products = await fetchProducts();
-    let brandCheckboxes = document.querySelectorAll('.brand-checkbox');
-    brandCheckboxes.forEach(checkbox => {
-        checkbox.addEventListener('click', (e) => {
-            const brand = e.target.name;
+    let renderedHTML = ``;
+
+    const filteredBrands = clientFilters.brands.filter(brand => brand in products);
+
+    filteredBrands.forEach(brand => {
+        const filteredProducts = products[brand].filter(product => {
+            return product.rating.stars >= clientFilters.rating && (product.price >= clientFilters.minPrice && product.price <= clientFilters.maxPrice);
+        });
+
+        filteredProducts.forEach(item => {
+            renderedHTML += renderCard(item);
         })
     })
 
+    productsContainer.innerHTML = renderedHTML;
 }
 
 
-export { filterByBrand }
+export { applyFilters, clientFilters }

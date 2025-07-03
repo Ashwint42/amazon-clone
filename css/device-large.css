@@ -827,8 +827,6 @@ nav {
     height: calc();
     border: 1px solid #f5f5f5;
     border-radius: 4px;
-    /* text-align: center; */
-    /* height: calc(100% - 8px); */
 }
 
 .card-container .image-container {
@@ -859,7 +857,6 @@ nav {
     padding: 0 8px;
     margin-bottom: 8px;
     margin-top: -4px;
-    /* text-align: center; */
 }
 
 .card-details .title {
@@ -895,7 +892,6 @@ nav {
 
 .card-container .ratings-container .ratings .stars {
     background-image: url(../assets/images/card-sprite);
-    background-position: -210px -468px;
     background-size: 512px 512px;
     background-repeat: no-repeat;
     height: 18px;

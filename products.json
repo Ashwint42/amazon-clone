@@ -7,12 +7,13 @@
       "original_price": 9999,
       "buyingCount": 5,
       "rating": {
-        "stars": 4,
+        "stars": 4.5,
         "count": 4197
       },
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": true
     },
     {
       "title": "Samsung Original 25W Type-C Travel Adaptor Without Cable, White",
@@ -27,7 +28,8 @@
 
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": false
     },
     {
       "title": "Samsung Galaxy M35 5G (Daybreak Blue,6GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+ | Vapour Cooling Chamber | 6000mAh Battery | 120Hz Super AMOLED Display| Without Charger",
@@ -42,7 +44,8 @@
 
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": true
+      "islimitedDeal": true,
+      "serviceAvailable": true
     },
     {
       "title": "Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Gray, 12GB, 256GB Storage), Snapdragon 8 Gen 3, 200 MP Camera with ProVisual Engine and 5000mAh Battery",
@@ -57,11 +60,12 @@
 
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": true
     },
     {
       "title": "Samsung Galaxy S24 FE 5G AI Smartphone (Graphite, 8GB RAM, 128GB Storage)",
-      "image": "https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UL480_FMwebp_QL65_.jpg",
+      "image": "https://m.media-amazon.com/images/I/71eUNTW+nJL._AC_UL480_FMwebp_QL65_.jpg",
       "price": 84999,
       "original_price": 134999,
       "buyingCount": 5,
@@ -72,7 +76,8 @@
 
       "deliveryDate": "Thu, 3 Jul",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": true
     },
     {
       "title": "SAMSUNG EVO Plus 256GB Micro w/SD Adaptor SDXC, Up-to 160MB/s, Expanded Storage for Gaming Devices, Android Tablets and Smart Phones, Memory Card",
@@ -81,13 +86,14 @@
       "original_price": 4399,
       "buyingCount": 3,
       "rating": {
-        "stars": 4.5,
+        "stars": 2.5,
         "count": 5815
       },
 
       "deliveryDate": "Mon, 30 Jun",
       "isPrime": true,
-      "islimitedDeal": true
+      "islimitedDeal": true,
+      "serviceAvailable": false
     },
     {
       "title": "Samsung Galaxy F06 5G, Bahama Blue (4GB, 128GB)",
@@ -102,7 +108,8 @@
 
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": true
+      "islimitedDeal": true,
+      "serviceAvailable": true
     }
   ],
   "apple": [
@@ -113,26 +120,28 @@
       "original_price": 69900,
       "buyingCount": 5,
       "rating": {
-        "stars": 4.5,
+        "stars": 3.5,
         "count": 4180
       },
       "deliveryDate": "Tue, 1 Jul",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": true
     },
     {
       "title": "Apple 20W USB-C Power Adapter (for iPhone, iPad & AirPods)",
-      "image": "https://m.media-amazon.com/images/I/71v2jVh6nIL._AC_UL480_FMwebp_QL65_.jpg",
+      "image": "https://m.media-amazon.com/images/I/21rFLTV3tML._AC_UL480_FMwebp_QL65_.jpg",
       "price": 1589,
       "original_price": 1900,
       "buyingCount": 10,
       "rating": {
-        "stars": 4.5,
+        "stars": 5,
         "count": 91218
       },
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": false
     },
     {
       "title": "Apple 240W USB-C Charge Cable (2m)",
@@ -141,12 +150,13 @@
       "original_price": 2900,
       "buyingCount": 500,
       "rating": {
-        "stars": 4.5,
+        "stars": 2,
         "count": 467
       },
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": false
     },
     {
       "title": "iPhone 16 Pro 256 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a Huge Leap in Battery Life. Works with AirPods; Desert Titanium",
@@ -160,7 +170,8 @@
       },
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": true
     },
     {
       "title": "iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; Black",
@@ -174,7 +185,8 @@
       },
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": true
     },
     {
       "title": "Apple 240W USB-C Charge Cable (2m)",
@@ -188,7 +200,8 @@
       },
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": false
     },
     {
       "title": "Apple iPhone 15 (128 GB) - Pink",
@@ -202,7 +215,8 @@
       },
       "deliveryDate": "Tue, 1 Jul",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": true
     }
   ],
   "oneplus": [
@@ -213,12 +227,13 @@
       "original_price": 20999,
       "buyingCount": 5,
       "rating": {
-        "stars": 4,
+        "stars": 3,
         "count": 7093
       },
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": true
     },
     {
       "title": "OnePlus Nord 4 5G (Oasis Green, 8GB RAM, 256GB Storage) | Lifetime Display Warranty | Qualcomm® Snapdragon™ 7 Plus Gen 3 | ANTUTU Score 1.5Mn+ | OnePlus AI",
@@ -232,7 +247,8 @@
       },
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": true
     },
     {
       "title": "OnePlus Nord 4 5G (Obsidian Midnight, 8GB RAM, 256GB Storage) | Lifetime Display Warranty | Qualcomm® Snapdragon™ 7 Plus Gen 3 | ANTUTU Score 1.5Mn+ | OnePlus AI",
@@ -246,7 +262,8 @@
       },
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": true
     },
     {
       "title": "OnePlus Nord CE4 (Dark Chrome, 8GB RAM, 256GB Storage) | Lifetime Display Warranty | Qualcomm® Snapdragon™ 7 Gen 3 - Best in The Segment | 50 MP Camera with OIS",
@@ -255,12 +272,13 @@
       "original_price": 26999,
       "buyingCount": 4,
       "rating": {
-        "stars": 4.5,
+        "stars": 3,
         "count": 9329
       },
       "deliveryDate": "Wed, 2 Jul",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": true
     },
     {
       "title": "OnePlus Nord 4 5G (Obsidian Midnight, 8GB RAM, 256GB Storage) | Lifetime Display Warranty | Qualcomm® Snapdragon™ 7 Plus Gen 3 | ANTUTU Score 1.5Mn+ | OnePlus AI",
@@ -274,7 +292,8 @@
       },
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": true
     },
     {
       "title": "OnePlus Nord CE4 (Dark Chrome, 8GB RAM, 256GB Storage) | Lifetime Display Warranty | Qualcomm® Snapdragon™ 7 Gen 3 - Best in The Segment | 50 MP Camera with OIS",
@@ -288,7 +307,8 @@
       },
       "deliveryDate": "Wed, 2 Jul",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": true
     },
     {
       "title": "OnePlus Nord CE4 Lite 5G (Super Silver, 8GB RAM, 128GB Storage) | Lifetime Display Warranty | 5500 mAh Battery, 80W SUPERVOOC and Reverse Charging | 50MP Camera with OIS | 120Hz AMOLED Display",
@@ -302,7 +322,8 @@
       },
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
-      "islimitedDeal": false
+      "islimitedDeal": false,
+      "serviceAvailable": true
     }
   ]
 }
