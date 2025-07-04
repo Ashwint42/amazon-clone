@@ -642,7 +642,7 @@ nav {
     font-size: 12px;
     line-height: 16px;
     margin-left: 4.5px;
-    margin-top: 1px;
+    margin-top: 2px;
     vertical-align: middle;
 }
 
@@ -651,6 +651,7 @@ nav {
     line-height: 16px;
     font-family: var(--font-bold);
     margin-bottom: 8px;
+    transform: translateY(2px);
 }
 
 .condition-container {
@@ -661,6 +662,7 @@ nav {
     font-size: 14px;
     line-height: 16px;
     margin-bottom: 4px;
+    transform: translateY(2px);
 }
 
 .price-container {
@@ -903,6 +905,7 @@ nav {
     position: relative;
     vertical-align: baseline;
     align-self: flex-end;
+    transform: translateY(1px);
 }
 
 .card-container .ratings-container .ratings .arrow {
@@ -914,6 +917,7 @@ nav {
     width: 16px;
     position: relative;
     vertical-align: text-top;
+    transform: translateY(1px);
 }
 
 .buy-count {
