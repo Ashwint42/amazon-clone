@@ -1224,3 +1224,64 @@ nav {
 .help-tail p .separator {
     color: black;
 }
+
+.recommendation-section {
+    width: 100%;
+    margin-top: 153px;
+    box-sizing: content-box;
+}
+
+.recommendation-container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+
+.recommendation-wrapper {
+    width: 100%;
+    margin-top: 36px;
+    margin-bottom: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommendation-wrapper .heading {
+    padding-bottom: 4px;
+}
+
+.recommendation-wrapper .heading p {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: var(--font-bold);
+}
+
+.recommendation-sign-in-button {
+    margin: 4px 0;
+    width: 230.64px;
+    height: 31px;
+    display: flex;
+    background-color: var(--button-color);
+    border-radius: 100px;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.recommendation-tail p {
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.recommendation-tail p .tail-link {
+    font-size: 11px;
+    line-height: 15px;
+    color: #2162a1;
+    text-decoration: underline;
+}
