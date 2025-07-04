@@ -1071,77 +1071,99 @@ nav {
 
 .pagination {
     width: 100%;
-    background-color: mistyrose;
     margin-top: 8px;
     padding: 0 4px;
-    grid-column: 1 / -1;
     margin-bottom: 0 !important;
+    transform: translateY(60px);
 }
 
 .pagination-wrapper {
-    margin-bottom: 16px;
     width: 100%;
-    height: calc(100% - 16px);
+    margin-bottom: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-.pagination-container {
-    margin-bottom: 0;
-}
-
-.pagination-belt {
-    display: inline-block;
-    white-space: nowrap;
+.pagination-wrapper ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0, 1);
-    text-align: center !important;
+    box-shadow: 1px 2px 0 rgba(0, 0, 0, .1);
 }
 
-.pagination-belt ul {
-    display: block;
-    margin-left: 0;
-    padding: 0;
+.pagination-wrapper ul li {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 46px;
+    padding: 0 12px;
+    min-width: 24px;
+    height: 46px;
+    position: relative;
+    box-sizing: content-box;
+    border-top: 1px solid #d5d9d9;
+    border-bottom: 1px solid #d5d9d9;
 }
 
-.pagination-belt .previous-button {
+.pagination-wrapper ul li span {
+    box-sizing: content-box;
+}
+
+.pagination-previous-button {
     border-left: 1px solid #d5d9d9;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    display: inline-block;
     color: #6f7373;
+    min-width: 70px !important;
+}
+
+.pagination-previous-button .previous svg {
+    margin-top: 16px;
+    margin-right: 3px;
+    vertical-align: top;
+    fill: #6f7373
+}
+
+.pagination-selected {
+    border: 1px solid black !important;
+    padding: 0 11px !important;
+    font-weight: bold;
+}
+
+.trailing-dots {
+    display: inline-block;
     line-height: 46px;
     padding: 0 12px;
-    border-top: 1px solid #d5d9d9;
-    border-bottom: 1px solid #d5d9d9;
     height: 46px;
     position: relative;
-    min-width: 70px;
-    text-align: center !important;
+    box-sizing: content-box;
+    border-top: 1px solid #d5d9d9;
+    border-bottom: 1px solid #d5d9d9;
 }
 
-.pagination-belt .previous-button svg {
-    color: #6f7373;
-    margin-top: 17px;
-    margin-right: 7px;
+.trailing-dots svg {
+    min-width: 10px;
     fill: #6f7373;
     vertical-align: top;
-    width: 8;
-    height: 12;
-    text-align: center;
+    margin-top: 22px;
 }
 
-.pagination-belt ul li {
-    display: inline-block;
-    /* margin: 0 10px 0 0; */
+.pagination-last {
+    color: #6f7373;
+}
+
+.pagination-next-button {
+    padding-left: 13px !important;
+    min-width: 69px !important;
+    border-right: 1px solid #d5d9d9;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     font-size: 14px;
-    line-height: 20px;
 }
 
-.pagination-belt ul li span {
-    color: #0f1111;
-    font-weight: 700;
-    border: 1px solid #0f1111;
-    padding-left: 11px;
-    padding-right: 11px;
-    min-width: 24px;
-    height: 46px;
+.pagination-next-button .next svg {
+    margin-top: 16px;
+    margin-left: 4px;
+    vertical-align: top;
 }
