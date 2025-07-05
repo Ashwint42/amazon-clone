@@ -82,6 +82,10 @@ function formatPrice(number) {
     return number.toLocaleString("en-IN");
 }
 
+function formatPriceUS(number) {
+    return number.toLocaleString("en-US");
+}
+
 
 function calculateDiscountPercentage(price, originalPrice) {
     const discountPrice = originalPrice - price;
@@ -89,4 +93,4 @@ function calculateDiscountPercentage(price, originalPrice) {
     return discountPercentage;
 }
 
-export { starMappings, fetchProducts, formatPrice, calculateDiscountPercentage, dynamicStarMapper }
+export { starMappings, fetchProducts, formatPrice, formatPriceUS, calculateDiscountPercentage, dynamicStarMapper }

@@ -1,5 +1,5 @@
 import { clientFilters, applyFilters } from "./filter.js";
-import { starMappings, formatPrice } from "./utils.js";
+import { starMappings, formatPrice, formatPriceUS } from "./utils.js";
 
 const addWindowEvents = () => {
     window.addEventListener('load', () => {
@@ -13,9 +13,9 @@ const addWindowEvents = () => {
 
         minPrice.innerHTML = formatPrice(castedLowerValue);
         if (castedUpperValue >= upperBoundSlider.max)
-            maxPrice.innerHTML = formatPrice(castedUpperValue).concat("+");
+            maxPrice.innerHTML = formatPriceUS(castedUpperValue).concat("+");
         else
-            maxPrice.innerHTML = formatPrice(castedUpperValue);
+            maxPrice.innerHTML = formatPriceUS(castedUpperValue);
 
 
         clientFilters.maxPrice = castedUpperValue;
@@ -66,9 +66,9 @@ const addSliderEvents = () => {
 
     upperBoundSlider.addEventListener('input', (e) => {
         if (Number(upperBoundSlider.value) >= upperBoundSlider.max)
-            maxPrice.innerHTML = formatPrice(Number(e.target.value)) + "+";
+            maxPrice.innerHTML = formatPriceUS(Number(e.target.value)) + "+";
         else
-            maxPrice.innerHTML = formatPrice(Number(e.target.value));
+            maxPrice.innerHTML = formatPriceUS(Number(e.target.value));
     })
 
     lowerBoundSlider.addEventListener('input', (e) => {
