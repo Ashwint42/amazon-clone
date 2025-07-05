@@ -967,9 +967,11 @@ nav {
 }
 
 .price-slider-container {
+    width: 100%;
     height: 50px;
     display: flex;
     margin-bottom: 4px;
+    justify-content: space-between;
 }
 
 .discount-wrapper {
@@ -1319,9 +1321,9 @@ nav {
 }
 
 .add-to-cart-button {
-    padding: 0 12px;
     font-size: 13px;
     height: 30px;
+    padding: 0 12.7px;
     border-radius: 99px;
     letter-spacing: 0.01px;
 }
@@ -1848,4 +1850,79 @@ footer {
     color: #DDD;
     display: inline-block;
     transform: translateY(-6px);
+}
+
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 163.8%;
+    position: relative;
+}
+
+.slider-thumb-child {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.price-slider-container {
+    position: relative;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 4px;
+    width: 211.25px;
+    position: absolute;
+    pointer-events: none;
+    top: 22px;
+    background-color: #007185;
+    z-index: 1;
+}
+
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 28px;
+    width: 28px;
+    background-color: #007185;
+    box-shadow: 0 0 10px grey;
+    border-radius: 50%;
+    pointer-events: all;
+    background-image: radial-gradient(circle at center, white 5px, #007185 7px);
+    position: relative;
+    z-index: 100;
+}
+
+#fromSlider {
+    pointer-events: none;
+    background: none;
+    z-index: 2;
+}
+
+#toSlider {
+    pointer-events: all;
+    background: #007185;
+    z-index: 1;
+}
+
+.go-button {
+    margin-left: 8px;
+    line-height: 16px;
+    position: relative;
+}
+
+.go-button button {
+    border-radius: 100px;
+    background-color: white;
+    height: 31px;
+    padding: 1px 12px;
+    border: 0.5px solid #888c8c;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 8.5px;
 }

@@ -344,13 +344,11 @@
                                     </div>
                                     <div class="price-slider-container">
                                         <div class="price-slider">
-                                            <div class="lower-bound">
-                                                <input type="range" min="1" max="50000" value="280"
-                                                    class="lower-bound-input">
-                                            </div>
-                                            <div class="upper-bound">
-                                                <input type="range" min="50001" max="124900" aria-valuemax="20000"
-                                                    value="124900" class="upper-bound-input">
+                                            <div class="slider-container">
+                                                <input type="range" min="280" max="124900" value="280"
+                                                    class="lower-bound-input" id="fromSlider">
+                                                <input type="range" min="280" max="124900" value="124900"
+                                                    class="upper-bound-input" id="toSlider">
                                             </div>
                                         </div>
                                         <div class="go-button">

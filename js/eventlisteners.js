@@ -65,6 +65,9 @@ const addSliderEvents = () => {
     const priceSetterButton = document.querySelector('.slider-compute-button')
 
     upperBoundSlider.addEventListener('input', (e) => {
+        if (Number(upperBoundSlider.value) <= Number(lowerBoundSlider.value))
+            upperBoundSlider.value = Number(lowerBoundSlider.value) + 500;
+
         if (Number(upperBoundSlider.value) >= upperBoundSlider.max)
             maxPrice.innerHTML = formatPriceUS(Number(e.target.value)) + "+";
         else
@@ -73,6 +76,9 @@ const addSliderEvents = () => {
 
     lowerBoundSlider.addEventListener('input', (e) => {
         minPrice.innerHTML = formatPrice(Number(e.target.value));
+
+        if (Number(lowerBoundSlider.value) >= Number(upperBoundSlider.value))
+            lowerBoundSlider.max = Number(upperBoundSlider.value) - 500;
     })
 
     priceSetterButton.addEventListener('click', () => {
