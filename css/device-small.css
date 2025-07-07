@@ -288,4 +288,270 @@
         white-space: nowrap;
         text-overflow: ellipsis;
     }
+
+    .mobile-main {
+        display: block;
+        width: 100vw;
+        position: relative;
+    }
+
+    .mb-main-wrapper {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-column-gap: 0;
+        align-items: stretch;
+        justify-items: stretch;
+        overflow: visible;
+        align-content: flex-start;
+        width: calc(100vw - 8px + 4px);
+        margin: 0 0 0 4px;
+        padding-right: 4px;
+        grid-auto-flow: dense;
+    }
+
+    .mb-filter-tab {
+        margin-left: -4px;
+        margin-right: -4px;
+        padding-left: 0;
+        padding-right: 0;
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        overflow-x: hidden;
+        transition: transform .2s linear;
+        grid-column: 1 / -1;
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .mb-filter-tab-container {
+        margin-bottom: 8px;
+    }
+
+    .mb-filter-tab-wrapper {
+        min-height: 0;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        box-shadow: 0 1px 2px 0 rgba(17, 17, 17, .15);
+        padding: 0;
+        transition: .2s linear;
+        margin-bottom: 0;
+    }
+
+    .mb-filter-left {
+        display: flex;
+        align-items: center;
+        overflow: auto;
+        overflow-y: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    .mb-prime-container {
+        padding-left: 8px;
+        margin-right: 4px;
+        flex-shrink: 0;
+        white-space: nowrap;
+        margin-bottom: 0;
+    }
+
+    .mb-prime-wrapper {
+        white-space: nowrap;
+    }
+
+    .mb-prime-holder {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 20px;
+        margin-inline-start: 4px;
+        padding: 6px 0;
+    }
+
+    .mb-prime-icon-holder {
+        vertical-align: middle;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .mb-prime-icon {
+        display: inline-block;
+        margin-inline-end: 4px;
+        width: 42px;
+        height: 12px;
+        background-image: url(https://m.media-amazon.com/images/S/sash/IAiggOMz$2G$3oR.png);
+        background-position: -277px -224px;
+        vertical-align: baseline;
+        margin-bottom: -1.75px;
+        background-size: 512px 256px;
+        background-repeat: no-repeat;
+    }
+
+    .mb-prime-toggle-container {
+        line-height: 0;
+        vertical-align: middle;
+        display: inline-block;
+        font-size: 14px;
+        white-space: nowrap;
+        margin-left: -4px;
+    }
+
+    .mb-prime-toggle-container::after {
+        content: url(https://m.media-amazon.com/images/S/sash/J86UBa3MBZb1CXv.svg);
+        line-height: 0;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .mb-brand-filters {
+        margin-right: 4px;
+        flex-shrink: 0;
+        white-space: nowrap;
+        margin-bottom: 0;
+    }
+
+    .mb-brand-filter-container {
+        white-space: nowrap;
+    }
+
+    .mb-brand-filter-wrapper {
+        margin-right: 4px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 9px;
+        border-radius: 8px;
+        background-color: #e7f4f5;
+        border-color: #c7e4e8;
+        width: auto;
+        border: 1px solid #e8e8e8;
+        text-align: center;
+        vertical-align: bottom;
+    }
+
+    .mb-brand-filter-text {
+        font-size: 14px !important;
+        line-height: 20px !important;
+        max-width: 115px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: text-bottom;
+        color: #2162a1;
+    }
+
+    .mb-filter-right {
+        margin-bottom: 0;
+    }
+
+    .mb-filter-right-wrapper {
+        white-space: nowrap;
+    }
+
+    .mb-filter-object-container {
+        background-color: white;
+        border-color: #c7e4e8;
+        height: 46px;
+        border-radius: 0;
+        border: 0;
+        margin: 0;
+        padding: 0 12px;
+        box-shadow: inset 1px 0 0 0 #e6e6e6;
+        outline: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-decoration: none !important;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+
+    .mb-filter-object-button-wrapper {
+        color: #007185;
+        border-radius: 99px;
+        background: 0 0;
+        box-shadow: none;
+        position: relative;
+        display: block;
+        height: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .mb-filter-button {
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding: 11px 16px;
+        margin: 0;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+    }
+
+    .mb-filter-button-wrapper {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #007185;
+    }
+
+    .mb-filter-text-1 {
+        font-size: 14px;
+        line-height: 20px;
+        color: #007185;
+        text-align: center;
+    }
+
+    .mb-filter-text-2 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 6px;
+    }
+
+    .mb-filter-text-arrow {
+        margin-left: 6px;
+        width: 10px;
+        height: 10px;
+        margin-top: 2px;
+        transform: rotate(0);
+        transform-origin: center 40%;
+    }
+
+    .mb-filter-text-arrow::before {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 2px;
+        top: 50%;
+        right: 50%;
+        margin-right: -1px;
+        margin-top: -1px;
+        background-color: #007185;
+        transform-origin: 4px 1px;
+        transform: rotate(45deg);
+        font-size: 16px;
+    }
+
+    .mb-filter-text-arrow::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 2px;
+        top: 50%;
+        left: 50%;
+        margin-left: -1px;
+        margin-top: -1px;
+        background-color: #007185;
+        transform-origin: 1px 1px;
+        transform: rotate(-45deg);
+    }
 }
