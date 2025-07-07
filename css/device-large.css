@@ -1,3 +1,9 @@
+.mobile-header,
+.mobile-main,
+.mobile-footer {
+    display: none;
+}
+
 body {
     overflow-y: scroll;
 }

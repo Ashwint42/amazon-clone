@@ -1,0 +1,158 @@
+@media screen and (max-width: 767px) {
+
+    .desktop-header,
+    .desktop-main,
+    .desktop-footer {
+        display: none;
+    }
+
+    .mobile-header {
+        display: block;
+    }
+
+    .mb-header-wrapper {
+        position: relative;
+        z-index: 208;
+        font-family: inherit;
+        font-size: 12px;
+        line-height: 1em;
+        min-width: 200px;
+    }
+
+    .mb-primary-nav {
+        display: flex;
+        position: relative;
+        z-index: inherit;
+        height: 48px;
+        width: 100%;
+        border-bottom: 1px solid #232f3e;
+        background-color: #232f3e;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .mb-primary-left {
+        flex-shrink: 0;
+        flex-flow: row nowrap;
+        display: flex;
+        position: relative;
+        width: auto;
+        font-family: inherit;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .mb-hamburger-wrapper {
+        padding: 14px 14px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .mb-hamburger-icon {
+        width: 20px;
+        height: 20px;
+        display: block;
+        background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png);
+        background-size: 275px;
+        background-position: -20px -378px;
+        background-repeat: no-repeat;
+        text-indent: -500px;
+    }
+
+    .mb-primary-logo-wrapper {
+        margin-left: auto;
+        position: relative;
+        margin-top: 13px;
+    }
+
+    .mb-primary-logo-link {
+        display: inline-block;
+    }
+
+    .mb-logo-icon {
+        background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png);
+        background-size: 275px;
+        background-position: -185px -236px;
+        padding: 10px 40px 0 20px;
+        width: 80px;
+        height: 28px;
+        text-indent: -500px;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+
+    .mb-logo-tail {
+        display: inline-block;
+        background-position: -160px -209px;
+        width: 14px;
+        height: 16px;
+        margin: 1px 0 0 1px;
+        font-size: 13.5px;
+        line-height: 14px;
+        padding-top: 1px;
+        color: white;
+        position: absolute;
+    }
+
+    .mb-primary-right {
+        display: flex;
+        position: relative;
+        flex-flow: row wrap;
+        min-width: 60px;
+    }
+
+    .mb-signin-container .mb-siginin-text {
+        display: flex;
+        margin-left: 10px;
+        line-height: 48px;
+        font-size: 13px;
+        color: #fff;
+    }
+
+    .mb-user-icon-wrapper {
+        display: flex;
+        padding: 9px 0 12px 4px;
+        position: relative;
+        width: 39px;
+    }
+
+    .mb-user-icon {
+        background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png);
+        background-size: 275px;
+        display: block;
+        background-position: -141px -300px;
+        width: 35px;
+        height: 27px;
+        text-indent: -500px;
+        overflow: hidden;
+    }
+
+    .mb-cart-container {
+        display: flex;
+        padding: 10px 18px 11px 7px;
+    }
+
+    .mb-cart-wrapper {
+        width: 37px;
+    }
+
+    .mb-cart-icon {
+        background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png);
+        background-position: -10px -240px;
+        background-size: 275px;
+        width: 37px;
+        height: 27px;
+        display: inline-block;
+    }
+
+    .mb-cart-count {
+        display: block;
+        padding: 0 0 0 6px;
+        font-size: 16px;
+        color: #f08804;
+        text-align: center;
+        font-size: 16px;
+        line-height: 10px;
+        font-family: var(--font-bold);
+    }
+}

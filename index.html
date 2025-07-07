@@ -7,7 +7,7 @@
     <title>Amazon clone</title>
     <link rel="stylesheet" href="./css/preset.css">
     <link rel="stylesheet" href="./css/device-large.css">
-
+    <link rel="stylesheet" href="./css/device-small.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="desktop-header">
         <nav>
             <div class="primary-nav">
                 <div class="nav-left">
@@ -190,7 +190,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="desktop-main">
         <div class="results-heading-wrapper">
             <div class="child-left">
                 <p>1-24 of 709 results</p>
@@ -596,7 +596,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="desktop-footer">
         <div class="footer-wrapper">
             <div class="back-to-top">
                 <p class="text">Back to top</p>
@@ -759,6 +759,40 @@
 
         </div>
     </footer>
+
+
+    <header class="mobile-header">
+        <div class="mb-header-wrapper">
+            <div class="mb-primary-nav">
+                <div class="mb-primary-left">
+                    <a class="mb-hamburger-wrapper">
+                        <i class="mb-hamburger-icon"></i>
+                    </a>
+                    <div class="mb-primary-logo-wrapper">
+                        <a class="mb-primary-logo-link">
+                            <span class="mb-logo-icon"></span>
+                            <span class="mb-logo-tail">.in</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="mb-primary-right">
+                    <div class="mb-signin-container">
+                        <a class="mb-siginin-text">Sign in › </a>
+                    </div>
+                    <a class="mb-user-icon-wrapper">
+                        <i class="mb-user-icon"></i>
+                    </a>
+                    <a class="mb-cart-container">
+                        <div class="mb-cart-wrapper">
+                            <span class="mb-cart-icon">
+                                <span class="mb-cart-count">0</span>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <script type="module" src="./js/main.js"></script>
 </body>
