@@ -1,5 +1,5 @@
 import { fetchProducts } from "./utils.js";
-import { renderCard } from "./Card.js";
+import { renderCard, renderCardMobile, renderMobileHeading } from "./Card.js";
 
 let clientFilters = {
     brands: ["samsung"],
@@ -9,6 +9,7 @@ let clientFilters = {
 }
 
 const productsContainer = document.querySelector('.products-container');
+const mainContentWrapper = document.querySelector('.mb-main-wrapper');
 
 async function applyFilters() {
     const products = await fetchProducts();
@@ -21,12 +22,25 @@ async function applyFilters() {
             return product.rating.stars >= clientFilters.rating && (product.price >= clientFilters.minPrice && product.price <= clientFilters.maxPrice);
         });
 
-        filteredProducts.forEach(item => {
-            renderedHTML += renderCard(item);
-        })
+        if (window.innerWidth < 768) {
+            renderedHTML = renderMobileHeading();
+            filteredProducts.forEach(item => {
+                renderedHTML += renderCardMobile(item);
+            })
+        } else {
+            filteredProducts.forEach(item => {
+                renderedHTML += renderCard(item);
+            })
+        }
+        // filteredProducts.forEach(item => {
+        //     renderedHTML += renderCard(item);
+        // })
     })
 
-    productsContainer.innerHTML = renderedHTML;
+    if (window.innerWidth < 768)
+        mainContentWrapper.innerHTML = renderedHTML;
+    else
+        productsContainer.innerHTML = renderedHTML;
 }
 
 

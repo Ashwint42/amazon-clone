@@ -955,7 +955,7 @@
 
     .mb-footer-page-navigator {
         height: 50px;
-        padding-top: 5.8px;
+        padding-top: 5px;
         background: #37475A;
         display: block;
         text-align: center;
@@ -1059,7 +1059,6 @@
         color: #CCC;
         margin-left: -3.625px;
         display: inline-block;
-        transform: translateY(0.5px);
     }
 
     .mb-footer-signin-section {
@@ -1081,7 +1080,6 @@
         text-align: center;
         padding: 0;
         min-height: 11px;
-        transform: translateY(0.5px)
     }
 
     .mb-footer-nav-link {
@@ -1105,10 +1103,6 @@
         font-size: 11px;
         color: #ccc;
         margin-bottom: 15px;
-    }
-
-    .mb-additional-styler {
-        transform: translateY(0.5px);
     }
 
     .mb-related-products-flow {
