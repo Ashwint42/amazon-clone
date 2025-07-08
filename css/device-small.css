@@ -440,6 +440,8 @@
         text-overflow: ellipsis;
         vertical-align: text-bottom;
         color: #2162a1;
+        display: inline-block;
+        transform: translateX(0.35px);
     }
 
     .mb-filter-right {
@@ -616,6 +618,7 @@
         width: calc(.41667 * (100vw - 8px));
         overflow: visible;
         height: 100%;
+        background-color: rgba(0, 0, 0, 0.03);
     }
 
     .mb-card-left-liner {
@@ -935,6 +938,209 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .mobile-footer {
+        display: block;
+    }
+
+    .mb-footer-wrapper {
+        background: #0D141E;
+        padding-bottom: 35px;
+        width: 100%;
+        min-width: 200px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .mb-footer-page-navigator {
+        height: 50px;
+        padding-top: 5.8px;
+        background: #37475A;
+        display: block;
+        text-align: center;
+        border-bottom: #cdcdcd;
+        color: white;
+    }
+
+    .mb-footer-up-arrow-icon {
+        border-style: solid;
+        border-width: 5px;
+        border-color: transparent;
+        border-top-width: 0;
+        border-bottom: 5px solid #ccc;
+        width: 0;
+        height: 0;
+        font-size: 0;
+        line-height: 0;
+        display: inline-block;
+    }
+
+    .mb-footer-navigation-text {
+        display: block;
+        font-size: 11px;
+        line-height: 30px;
+    }
+
+
+    .mb-footer-space-filler {
+        height: 96px;
+        width: 100%;
+    }
+
+    .mb-footer-list-wrapper {
+        padding: 0 20px 25px 20px;
+        background-color: #232F3E;
+        margin: 0;
+        border: 0;
+        overflow: hidden;
+    }
+
+
+    .mb-footer-list-item {
+        margin: 0;
+        padding: 0;
+        border-bottom: 0;
+        width: 50%;
+        display: block;
+        padding-right: 4px;
+        margin-top: 25px;
+    }
+
+    .mb-footer-right-list-item {
+        float: right;
+        clear: right;
+        padding-left: 4px;
+        padding-right: 0;
+    }
+
+    .mb-footer-list-item a {
+        display: block;
+        padding: 0;
+        color: #111;
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+    .mb-footer-list-item a span {
+        color: white;
+        font-size: 15px;
+    }
+
+    .mb-footer-language-section {
+        padding-top: 25px;
+        padding-bottom: 12px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .mb-footer-language-wrapper {
+        display: inline-block;
+        background: 0 0;
+        font-size: 14px;
+        padding: 14px 12.6px;
+        text-align: left;
+    }
+
+    .mb-footer-globe-icon {
+        background-image: url(https://m.media-amazon.com/images/S/sash/vqXWsNPg$9994Pg.png);
+        background-size: 194px 295px;
+        background-position: -77px -24px;
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 2.8px;
+        left: -8.4px;
+        display: inline-block;
+    }
+
+    .mb-footer-language-text {
+        color: #CCC;
+        margin-left: -3.625px;
+        display: inline-block;
+        transform: translateY(0.5px);
+    }
+
+    .mb-footer-signin-section {
+        color: white;
+        padding: 25px 0 25px 0;
+        margin: 0;
+        font-size: 15px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .mb-footer-signin-link {
+        padding-left: 5px;
+    }
+
+    .mb-footer-nav-links-section {
+        margin-bottom: 10px;
+        line-height: 15px;
+        text-align: center;
+        padding: 0;
+        min-height: 11px;
+        transform: translateY(0.5px)
+    }
+
+    .mb-footer-nav-link {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        color: #ccc;
+        word-wrap: break-word;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .mb-footer-nav-link a {
+        display: inline-block;
+        padding: 0 8px;
+        font-size: 11px;
+    }
+
+    .mb-footer-copyright-section {
+        text-align: center;
+        font-size: 11px;
+        color: #ccc;
+        margin-bottom: 15px;
+    }
+
+    .mb-additional-styler {
+        transform: translateY(0.5px);
+    }
+
+    .mb-related-products-flow {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        bottom: 0;
+        margin-bottom: 0;
+        display: flex;
+    }
+
+    .mb-related-products-wrapper {
+        height: 48px;
+        width: 48px;
+        z-index: 3;
+    }
+
+    .mb-related-products-back-styler {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0 0 4px 0 rgba(17, 17, 17, .3);
+        position: absolute;
+        top: 9px;
+        left: 8px;
+    }
+
+    .mb-related-products-back-styler img {
+        position: absolute;
+        top: 4px;
+        right: 4px;
     }
 
 }
