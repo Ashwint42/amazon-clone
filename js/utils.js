@@ -70,7 +70,7 @@ async function fetchProducts() {
     let products;
 
     try {
-        const data = await fetch("/amazon/products.json");
+        const data = await fetch("/amazon-clone/products.json");
         products = await data.json();
         return products;
     } catch (err) {
