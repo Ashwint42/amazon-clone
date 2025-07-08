@@ -21,6 +21,10 @@ const addWindowEvents = () => {
         clientFilters.maxPrice = castedUpperValue;
         clientFilters.minPrice = castedLowerValue;
     })
+
+    window.addEventListener('resize', () => {
+        applyFilters();
+    })
 }
 
 const addCheckBoxEvents = () => {

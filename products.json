@@ -18,37 +18,19 @@
       "bestSeller": true
     },
     {
-      "title": "Samsung Galaxy M35 5G (Daybreak Blue,6GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+ | Vapour Cooling Chamber | 6000mAh Battery | 120Hz Super AMOLED Display| Without Charger",
-      "image": "https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL480_FMwebp_QL65_.jpg",
-      "price": 13999,
-      "original_price": 24499,
+      "title": "Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7\" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger",
+      "image": "https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 6499,
+      "original_price": 9999,
       "buyingCount": 5,
       "rating": {
-        "stars": 4,
-        "count": 10916
-      },
-
-      "deliveryDate": "Sun, 29 Jun",
-      "isPrime": true,
-      "islimitedDeal": true,
-      "serviceAvailable": true
-    },
-    {
-      "title": "Samsung Original 25W Type-C Travel Adaptor Without Cable, White",
-      "image": "https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL480_FMwebp_QL65_.jpg",
-      "imageMobile": "https://m.media-amazon.com/images/I/512UVkoMMEL._AC_SX296_SY426_FMwebp_QL65_.jpg",
-      "price": 999,
-      "original_price": 1699,
-      "buyingCount": 10,
-      "rating": {
         "stars": 4.5,
-        "count": 39032
+        "count": 4197
       },
-
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
       "islimitedDeal": false,
-      "serviceAvailable": false
+      "serviceAvailable": true
     },
     {
       "title": "Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Gray, 12GB, 256GB Storage), Snapdragon 8 Gen 3, 200 MP Camera with ProVisual Engine and 5000mAh Battery",
@@ -81,6 +63,39 @@
       "isPrime": true,
       "islimitedDeal": false,
       "serviceAvailable": true
+    },
+    {
+      "title": "Samsung Galaxy M35 5G (Daybreak Blue,6GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+ | Vapour Cooling Chamber | 6000mAh Battery | 120Hz Super AMOLED Display| Without Charger",
+      "image": "https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 13999,
+      "original_price": 24499,
+      "buyingCount": 5,
+      "rating": {
+        "stars": 4,
+        "count": 10916
+      },
+
+      "deliveryDate": "Sun, 29 Jun",
+      "isPrime": true,
+      "islimitedDeal": true,
+      "serviceAvailable": true
+    },
+    {
+      "title": "Samsung Original 25W Type-C Travel Adaptor Without Cable, White",
+      "image": "https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL480_FMwebp_QL65_.jpg",
+      "imageMobile": "https://m.media-amazon.com/images/I/512UVkoMMEL._AC_SX296_SY426_FMwebp_QL65_.jpg",
+      "price": 999,
+      "original_price": 1699,
+      "buyingCount": 10,
+      "rating": {
+        "stars": 4.5,
+        "count": 39032
+      },
+
+      "deliveryDate": "Sun, 29 Jun",
+      "isPrime": true,
+      "islimitedDeal": false,
+      "serviceAvailable": false
     },
     {
       "title": "SAMSUNG EVO Plus 256GB Micro w/SD Adaptor SDXC, Up-to 160MB/s, Expanded Storage for Gaming Devices, Android Tablets and Smart Phones, Memory Card",
@@ -143,21 +158,6 @@
       "deliveryDate": "Sun, 29 Jun",
       "isPrime": true,
       "islimitedDeal": true,
-      "serviceAvailable": true
-    },
-    {
-      "title": "Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7\" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger",
-      "image": "https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL480_FMwebp_QL65_.jpg",
-      "price": 6499,
-      "original_price": 9999,
-      "buyingCount": 5,
-      "rating": {
-        "stars": 4.5,
-        "count": 4197
-      },
-      "deliveryDate": "Sun, 29 Jun",
-      "isPrime": true,
-      "islimitedDeal": false,
       "serviceAvailable": true
     },
     {
